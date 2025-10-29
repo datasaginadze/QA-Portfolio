@@ -7,9 +7,9 @@ TC_Login_01
 Verify that users can log in successfully with valid credentials.
 
 ## Preconditions
-- [ ] User has a registered account
-- [ ] User is logged out
-- [ ] Test environment is ready
+-  User has a registered account
+-  User is logged out
+-  Test environment is ready
 
 ## Steps
 1. Navigate to the login page
@@ -21,11 +21,11 @@ Verify that users can log in successfully with valid credentials.
 User should be redirected to the dashboard successfully.
 
 ## Actual Result
-User is redirected to the dashboard as expected. ✅
+User is redirected to the dashboard as expected.
 
 ## Severity / Priority
-- Severity: ![High](https://img.shields.io/badge/High-red?style=for-the-badge)
-- Priority: ![High](https://img.shields.io/badge/Low-yellow)
+- Severity: ![High](https://img.shields.io/badge/High-red)
+- Priority: ![Low](https://img.shields.io/badge/Low-yellow)
 
 ## Attachments
 ### Screenshot
