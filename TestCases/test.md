@@ -10,7 +10,7 @@ Verify that users can log in successfully with valid credentials.
 -  User has a registered account
 -  User is logged out
 -  Test environment is ready
-
+|-----------------------------|
 ## Steps
 1. Navigate to the login page
 2. Enter a valid email
