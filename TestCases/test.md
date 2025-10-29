@@ -24,8 +24,8 @@ User should be redirected to the dashboard successfully.
 User is redirected to the dashboard as expected. ✅
 
 ## Severity / Priority
-- Severity: ![Major](https://img.shields.io/badge/Severity-Major-red)
-- Priority: ![High](https://img.shields.io/badge/Priority-High-red)
+- Severity: ![Major](https://img.shields.io/badge/Major-red)
+- Priority: ![High](https://img.shields.io/badge/High-red)
 
 ## Attachments
 ### Screenshot
