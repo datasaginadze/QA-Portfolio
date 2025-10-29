@@ -38,7 +38,7 @@ No error message is displayed.
 
 ### Screenshot
 
-BugReports/BugReports/Screenshots/LoginError.png
+![Login Button Bug Screenshot](./BugReports/Screenshots/LoginError.png)
 
 ### Additional Notes
 
