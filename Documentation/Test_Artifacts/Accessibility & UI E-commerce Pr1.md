@@ -84,5 +84,6 @@
 
 ---
 
-## NDA Notice
-<span style="color:red; font-weight:bold">Due to confidentiality and NDA restrictions, screenshots and visual materials from the E-commerce platform cannot be shared.</span>
+![NDA Warning](https://img.shields.io/badge/NDA-Restricted-red?style=for-the-badge")
+
+Due to NDA restrictions, screenshots and visual materials from the E-commerce platform cannot be shared.
