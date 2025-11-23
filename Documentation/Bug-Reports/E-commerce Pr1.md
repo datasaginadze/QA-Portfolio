@@ -1,4 +1,4 @@
-### VS-BR-001 — Search field accepts 0-length input
+### VS-BR-001 - Search field accepts 0-length input
 **Module:** Search  
 **Severity:** Medium  
 **Environment:** STAGE  
@@ -18,7 +18,7 @@ Empty query is sent to backend. Page reloads with no feedback.
 **Risk:** Search endpoint unnecessarily loads DB, no validation.
 
 ------------------------------------
-### VS-BR-002 — Search field accepts 256+ characters (should be max 100)
+### VS-BR-002 - Search field accepts 256+ characters (should be max 100)
 **Module:** Search  
 **Severity:** High  
 
@@ -33,7 +33,7 @@ Input length limit (100 chars).
 System sends long query to backend → search hangs for ~4 sec.
 
 ------------------------------------
-### VS-BR-003 — Quantity field accepts negative values
+### VS-BR-003 - Quantity field accepts negative values
 **Module:** Cart  
 **Severity:** Critical  
 
@@ -49,7 +49,7 @@ Min boundary = 1
 Value “-5” is accepted; subtotal becomes negative.
 
 ------------------------------------
-### VS-BR-004 — Quantity field accepts 99999+ units
+### VS-BR-004 - Quantity field accepts 99999+ units
 **Module:** Cart  
 **Severity:** High  
 
@@ -64,7 +64,7 @@ Max boundary should be ≤ 100 units.
 System accepts, subtotal overflows to scientific notation.
 
 ------------------------------------
-### VS-BR-005 — Postal code accepts letters and emojis
+### VS-BR-005 - Postal code accepts letters and emojis
 **Module:** Checkout  
 **Severity:** Medium  
 
@@ -85,7 +85,7 @@ System accepts mixed characters.
 - "11D1" (invalid)  
 
 ------------------------------------
-### VS-BR-006 — Promo Code field accepts unlimited characters
+### VS-BR-006 - Promo Code field accepts unlimited characters
 **Module:** Checkout → Promo Code  
 **Severity:** Low  
 
@@ -100,7 +100,7 @@ Length ≤ 20
 Field accepts >500 characters; backend trims silently.
 
 ------------------------------------
-### VS-BR-007 — Email field allows missing “@”
+### VS-BR-007 - Email field allows missing “@”
 **Module:** Registration  
 **Severity:** High  
 
@@ -121,7 +121,7 @@ Form proceeds to next step.
 - "test"  
 
 ------------------------------------
-### VS-BR-008 — Password field accepts only spaces
+### VS-BR-008 - Password field accepts only spaces
 **Module:** Registration → Password  
 **Severity:** High  
 
@@ -136,7 +136,7 @@ Whitespace-only strings rejected.
 System validates based on length only.
 
 ------------------------------------
-### VS-BR-009 — Product page: Add to Cart works without selecting variant
+### VS-BR-009 - Product page: Add to Cart works without selecting variant
 **Module:** PDP (Product Details Page)  
 **Severity:** Critical  
 
@@ -151,7 +151,7 @@ System requires variant.
 System adds default variant silently (variantID=0).
 
 ------------------------------------
-### VS-BR-010 — Payment form accepts expired card dates
+### VS-BR-010 - Payment form accepts expired card dates
 **Module:** Payment Gateway (Sandbox)  
 **Severity:** High  
 
