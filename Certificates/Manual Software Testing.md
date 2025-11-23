@@ -4,7 +4,7 @@ This folder contains QA-related certificates and achievements demonstrating comp
 All materials are shared in a generic or anonymised format to respect NDA and confidentiality agreements.
 
 ## Sample Certificate: Manual Software Testing Course
-![Manual QA Certificate](Documentation/Assets/1course.jpg)
+![Assets](Documentation/Assets/1course.jpg)
 
 **Course Overview:**
 - Instructor: Lela Gabelaia
