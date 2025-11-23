@@ -1,6 +1,6 @@
 # Manual Testing Theory
 
-![Manual Testing Theory Certificate](../../Documentation/Assets/2course.jpg)
+![Manual QA Certificate](https://raw.githubusercontent.com/DataSaginadze/QA-Portfolio/main/Documentation/Assets/2course.jpg)
 
 This section presents the certificate earned from the **Manual Testing Theory Course**.
 
