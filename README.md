@@ -1,7 +1,7 @@
 # Manual QA Portfolio
 
 ## About Me  
-I am a Manual QA engineer with hands-on experience testing live web and mobile applications. My work focuses on functional, UI/UX, regression, and exploratory testing. I approach quality assurance with a structured, analytical mindset and enjoy breaking down complex systems into clear, testable components.  
+I am a Manual QA Tester with hands-on experience testing live web and mobile applications. My work focuses on functional, UI/UX, regression, and exploratory testing. I approach quality assurance with a structured, analytical mindset and enjoy breaking down complex systems into clear, testable components.  
 This portfolio showcases real QA deliverables created during various training projects and practical assignments, without revealing any confidential client information.
 
 ## Projects & Experience  
