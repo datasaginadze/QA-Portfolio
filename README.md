@@ -62,5 +62,5 @@ Additional materials showcasing technical competency:
 
 ## Contact  
 **Name:** Data Saginadze  
-**LinkedIn:** linkedin.com/in/datasaginadze  
+**LinkedIn:** [Data Saginadze](https://www.linkedin.com/in/datasaginadze/)
 **Email:** *datasaginadze12@gmail.com*
