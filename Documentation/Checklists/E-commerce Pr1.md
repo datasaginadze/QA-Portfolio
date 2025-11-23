@@ -1,8 +1,6 @@
-=====================================
-## 1) SMOKE CHECKLIST
-=====================================
+## SMOKE
 
-### VS-CL-001 — Smoke Checklist
+### VS-CL-001 - Smoke Checklist
 
 | # | Check Item | Status |
 |---|------------|--------|
@@ -17,12 +15,9 @@
 | 9 | Order placement (COD) works | ☐ |
 |10 | Logout works | ☐ |
 
+## SANITY
 
-=====================================
-## 2) SANITY CHECKLIST
-=====================================
-
-### VS-CL-002 — Sanity Checklist (Post-fix)
+### VS-CL-002 - Sanity Checklist (Post-fix)
 
 | # | Check Item | Status |
 |---|------------|--------|
@@ -35,11 +30,9 @@
 | 7 | Login/Session unaffected | ☐ |
 
 
-=====================================
-## 3) FUNCTIONAL CHECKLIST
-=====================================
+##FUNCTIONAL
 
-### VS-CL-003 — Functional Checklist  
+### VS-CL-003 - Functional Checklist  
 **Modules covered:** Auth, Search, Product, Cart, Checkout, Orders
 
 | # | Functional Area | Check Item | Status |
@@ -60,12 +53,9 @@
 |14 | Order History | User sees list of past orders | ☐ |
 |15 | Profile | User can update account info | ☐ |
 
+## REGRESSION
 
-=====================================
-## 4) REGRESSION CHECKLIST
-=====================================
-
-### VS-CL-004 — Regression Checklist  
+### VS-CL-004 - Regression Checklist  
 **Covers all critical flows**
 
 | # | Module | Check Item | Status |
@@ -89,12 +79,9 @@
 |17 | UI | Category navigation | ☐ |
 |18 | System | 404 page loads | ☐ |
 
+## UI / UX
 
-=====================================
-## 5) UI / UX CHECKLIST
-=====================================
-
-### VS-CL-005 — UI/UX Checklist
+### VS-CL-005 - UI/UX Checklist
 
 | # | Area | Check Item | Status |
 |---|------|------------|--------|
@@ -113,12 +100,9 @@
 |13 | Search UX | Suggestions appear quickly | ☐ |
 |14 | Accessibility | Links have proper focus states | ☐ |
 
+## ACCESSIBILITY
 
-=====================================
-## 6) ACCESSIBILITY CHECKLIST
-=====================================
-
-### VS-CL-006 — Accessibility Checklist  
+### VS-CL-006 - Accessibility Checklist  
 ( WCAG AA standards )
 
 | # | Standard | Check Item | Status |
