@@ -1,5 +1,5 @@
 
-### VS-TC-001 — Successful Search with valid keyword
+### VS-TC-001 - Successful Search with valid keyword
 **Module:** Search  
 **Type:** Positive  
 **Precondition:** User is on Home page  
@@ -14,7 +14,7 @@ System returns product list containing items with “shoes”.
 Search results display product cards, images, prices.
 
 ------------------------------------
-### VS-TC-002 — Add product to cart (simple product)
+### VS-TC-002 - Add product to cart (simple product)
 **Module:** Product Page  
 **Type:** Positive  
 
@@ -26,7 +26,7 @@ Search results display product cards, images, prices.
 Product is added to cart, cart counter increments by 1, success toast appears.
 
 ------------------------------------
-### VS-TC-003 — Add variant product to cart
+### VS-TC-003 - Add variant product to cart
 **Module:** PDP  
 **Type:** Positive  
 
@@ -40,7 +40,7 @@ Product is added to cart, cart counter increments by 1, success toast appears.
 Selected variant added correctly with variant ID, attributes shown in cart.
 
 ------------------------------------
-### VS-TC-004 — Update quantity in cart (valid range)
+### VS-TC-004 - Update quantity in cart (valid range)
 **Module:** Cart  
 **Type:** Positive  
 
@@ -53,7 +53,7 @@ Selected variant added correctly with variant ID, attributes shown in cart.
 Subtotal updates correctly. Quantity saved.
 
 ------------------------------------
-### VS-TC-005 — Apply valid promo code
+### VS-TC-005 - Apply valid promo code
 **Module:** Checkout  
 **Type:** Positive  
 
@@ -66,7 +66,7 @@ Subtotal updates correctly. Quantity saved.
 Discount -10% applied, total recalculated.
 
 ------------------------------------
-### VS-TC-006 — Successful login with valid credentials
+### VS-TC-006 - Successful login with valid credentials
 **Module:** Auth  
 **Type:** Positive  
 
@@ -79,7 +79,7 @@ Discount -10% applied, total recalculated.
 User authenticated, redirected to dashboard.
 
 ------------------------------------
-### VS-TC-007 — Successful order placement (COD)
+### VS-TC-007 - Successful order placement (COD)
 **Module:** Checkout  
 **Type:** Positive  
 
@@ -92,7 +92,7 @@ User authenticated, redirected to dashboard.
 Order successfully created, user sees confirmation page.
 
 ------------------------------------
-### VS-TC-008 — Filter products by category
+### VS-TC-008 - Filter products by category
 **Module:** Category page  
 **Type:** Positive  
 
@@ -104,7 +104,7 @@ Order successfully created, user sees confirmation page.
 Only women’s category products load.
 
 ------------------------------------
-### VS-TC-009 — Valid email format accepted on registration
+### VS-TC-009 - Valid email format accepted on registration
 **Module:** Registration  
 **Type:** Positive  
 
@@ -117,7 +117,7 @@ Only women’s category products load.
 Email passes validation, account created.
 
 ------------------------------------
-### VS-TC-010 — Successful logout
+### VS-TC-010 - Successful logout
 **Module:** Auth  
 **Type:** Positive  
 
@@ -129,7 +129,7 @@ Email passes validation, account created.
 Session invalidated, user returned to homepage.
 
 ------------------------------------
-### VS-TC-011 — Search with empty input
+### VS-TC-011 - Search with empty input
 **Module:** Search  
 **Type:** Negative  
 
@@ -142,7 +142,7 @@ Validation message: “Enter a keyword.”
 No request sent.
 
 ------------------------------------
-### VS-TC-012 — Search with 250+ characters
+### VS-TC-012 - Search with 250+ characters
 **Module:** Search  
 **Type:** Negative  
 
@@ -154,7 +154,7 @@ No request sent.
 Error: “Max length 100 characters.”  
 
 ------------------------------------
-### VS-TC-013 — Try adding variant product without selecting size
+### VS-TC-013 - Try adding variant product without selecting size
 **Module:** PDP  
 **Type:** Negative  
 
@@ -167,7 +167,7 @@ Validation error: “Select size.”
 No item added.
 
 ------------------------------------
-### VS-TC-014 — Invalid email format (missing @)
+### VS-TC-014 - Invalid email format (missing @)
 **Module:** Registration  
 **Type:** Negative  
 
@@ -179,7 +179,7 @@ No item added.
 Error: “Invalid email format.”
 
 ------------------------------------
-### VS-TC-015 — Password only spaces
+### VS-TC-015 - Password only spaces
 **Module:** Registration  
 **Type:** Negative  
 
@@ -191,7 +191,7 @@ Error: “Invalid email format.”
 Error: “Password cannot contain only spaces.”
 
 ------------------------------------
-### VS-TC-016 — Invalid postal code (letters)
+### VS-TC-016 - Invalid postal code (letters)
 **Module:** Checkout  
 **Type:** Negative  
 
@@ -203,7 +203,7 @@ Error: “Password cannot contain only spaces.”
 Error: “Use only digits.”
 
 ------------------------------------
-### VS-TC-017 — Quantity below minimum (0)
+### VS-TC-017 - Quantity below minimum (0)
 **Module:** Cart  
 **Type:** Negative  
 
@@ -215,7 +215,7 @@ Error: “Use only digits.”
 Error: “Minimum quantity is 1.”
 
 ------------------------------------
-### VS-TC-018 — Quantity extremely high (100000)
+### VS-TC-018 - Quantity extremely high (100000)
 **Module:** Cart  
 **Type:** Negative  
 
@@ -227,7 +227,7 @@ Error: “Minimum quantity is 1.”
 Error: “Maximum allowed 100.”
 
 ------------------------------------
-### VS-TC-019 — Promo code too long
+### VS-TC-019 - Promo code too long
 **Module:** Checkout → Promo  
 **Type:** Negative  
 
@@ -239,7 +239,7 @@ Error: “Maximum allowed 100.”
 Error: “Promo code exceeds max length (20).”
 
 ------------------------------------
-### VS-TC-020 — Expired card date (MM/YY < today)
+### VS-TC-020 - Expired card date (MM/YY < today)
 **Module:** Payment  
 **Type:** Negative  
 
