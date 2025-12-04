@@ -83,7 +83,7 @@ WHERE created_at >= NOW() - INTERVAL '7 days';
 
 -----------------------------------------------
 
--- VS-SQL-10: Verify expired discount codes
-SELECT code, discount_value, expires_at
-FROM discount_codes
+-- VS-SQL-10: Verify expired discount code  
+SELECT code, discount_value, expires_at  
+FROM discount_codes  
 WHERE expires_at < CURRENT_DATE;
